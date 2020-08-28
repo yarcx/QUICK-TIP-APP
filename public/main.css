@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+}
+body{
+    height: 100%;
+}
+
+.container{
+    height: 40rem;
+}
+
+.card{
+    height: auto;
+    width: 92%;
+
+}
+
+.input{
+    width: 60%;
+}
+
+.range
+{
+    -webkit-appearance: none;
+    height: 8px;
+    margin-top: 1.2rem;
+    background: #eee;
+    border-radius: 0.3rem;
+    outline-color: white;
+    width: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ height: 1.3rem;
+ width: 1.3rem;
+ background: #5bceae;
+ border-radius: 50%;
+}
